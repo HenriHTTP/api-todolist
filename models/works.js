@@ -1,4 +1,4 @@
-const  db =  require ("./connect"); 
+const  db =  require ("../databases/conn"); 
 
 const  works = db.sequelize.define('works',{
     title:{ 
